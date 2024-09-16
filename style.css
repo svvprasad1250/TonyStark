@@ -1,0 +1,76 @@
+body
+{
+        font-family: 'poppins' , sans-serif;
+        background-color: white;
+        color: black;
+        line-height: 1.6;
+        margin:0;
+        padding: 0;
+}
+h1 , h2 {
+         font-weight:700;
+}
+
+p
+{
+    font-weight: 200;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover {
+    color:blue;
+    text-decoration: underline;
+}
+header {
+    background: linear-gradient(to right , blue , orange);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+section{
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px;
+   
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    background: white;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form textarea{
+    width: calc(100% -20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+form button{
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 10px 20px ;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+form button:hover{
+    background: green;
+}
+footer{
+    background: linear-gradient(to right , black , orange);
+    margin: 10px;
+    color: white;
+}
